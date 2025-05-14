@@ -23,7 +23,7 @@ def main():
             break
         except ValueError:
             print("Please enter a whole number")
-# Get height from user 
+    # Get height from user
     while True:
         try:
             height = float(input("Enter a height(cm): "))
